@@ -1,0 +1,39 @@
+body, button, input, select{
+    font-family: 'B612 Mono', monospace;
+}
+button{
+    background: none;
+    border: 1px solid black;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+}
+input{
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+select{
+    margin: 5px;
+    width: 50px;
+    padding: 3px 3px;
+}
+.points-manager-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.inner-container{
+    width: 300px;
+    margin-left: 50px;
+}
+#graph{
+    width: 500px;
+    height: 500px;
+}
+#results{
+    margin: auto;
+    margin-top: 10px;
+}
+
+
